@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Музыкальная библиотека</title>
+    <style>
+      body { 
+        background: url(bg.jpg); 
+        background-size: 100%;
+        font-size: 1.5em;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+      }
+      .transparent {     
+        background-color: Transparent;
+        background-repeat:no-repeat;
+        border: none;
+        cursor:pointer;
+        overflow: hidden;
+        width: 50%;
+        height: 50%;
+      }
+      td.col { background: #008080; color: white; }
+    </style>
+  </head>
+<body>
+  <form name=myformone action=page2.html method=POST>
+    <table cellspacing="0" cellpadding="0"  border="0" align="center" width="100%" height="75">
+      <tr>
+        <td class="col" align="center">
+          <p><button class="transparent" style="width:100%;height:100%"><font size="5" face="Times New Roman">Треки</font></button></p>
+        </td>
+        <td class="col" align="center">
+          <p><button class="transparent" style="width:100%;height:100%"><font size="5" face="Times New Roman">Исполнители</font></button></p>
+        </td>
+        <td class="col" align="center">
+          <p><button class="transparent" style="width:100%;height:100%"><font size="5" face="Times New Roman">Жанры</font></button></p>
+        </td>
+        <td class="col" align="center">
+          <p><button class="transparent" style="width:100%;height:100%"><font size="5" face="Times New Roman">Альбомы</font></button></p>
+        </td>
+      </tr>
+    </table>
+
+    <table cellpadding="0" border="0" align="center" width="100%" height="100%">
+      <tr>
+        <td align="left" width="20%"></td>
+        <td align="center" width="60%">  
+          <p><h1 align="center"><font size="7" color="000000" face="Calibri">Музыкальная библиотека</font></h1></p>
+          <p><h7 align="center"><font size="5" color="000000" face="Times New Roman">Добро пожаловать на сайт музыкальной библиотеки. В вашем распоряжении имеются загруженные на сайт медиафайлы. Кроме того, у вас есть возможность добавить свои собственные, а также преобразовать звуковые форматы (MP3, WAV) в MIDI.</font> </p>
+        </td>
+        <td align="right" width="20%"></td>
+      </tr>
+    <tr>
+      <td align="left" width="20%"></td>
+      <td align="center" width="60%">  
+        <p><h1 align="center"><font size="6" color="000000" face="Calibri">Что такое MIDI?</font></h1></p>
+      <p><h7 align="center"><font size="5" color="000000" face="Times New Roman">MIDI - это стандарт цифровой звукозаписи на формат обмена данными между электронными музыкальными инструментами.</font> </p>
+      <td align="right" width="20%"></td>
+    </tr>
+    
+    <tr>
+      <td align="left" width="20%"></td>
+      <td align="center" width="60%">  
+        <p><h1 align="center"><font size="6" color="000000" face="Calibri">Как это работает?</font></h1></p>
+        <p><h7 align="center"><font size="5" color="000000" face="Times New Roman">Алгоритм извлекает мелодию из звукового файла, а затем сегментирует (раздрабливает) непрерывную последовательность высоты тона на серию ближайших ритмических долей в секвенсоре (программа для редактирования ритмических фигур) и экспортирует в MIDI</font> </p>
+      <td align="right" width="20%"></td>
+    </tr>
+    </table>
+  </form>
+</body>
+</html>

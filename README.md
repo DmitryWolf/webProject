@@ -8,4 +8,5 @@ MIDI - это стандарт цифровой звукозаписи на фо
 Алгоритм извлекает мелодию из звукового файла, а затем сегментирует (раздрабливает) непрерывную последовательность высоты тона на серию ближайших ритмических долей в секвенсоре (программа для редактирования ритмических фигур) и экспортирует в MIDI
 
 План - https://docs.google.com/document/d/1gITLRW9SHnUXBHHMFhsOWw2g8Kr7JLqPRgHhecVyv7c/edit?usp=sharing
+
 Схема сайта - https://docs.google.com/document/d/1FKsK1uE6DW8XR00nMGNsw0TaUw1Mp9lFq_i1tibkGdY/edit?usp=sharing

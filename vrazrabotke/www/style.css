@@ -1,0 +1,120 @@
+.transparent {     
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    width: 50%;
+    height: 50%;
+  }
+  td.col { background: #00CCFF; color: white; }
+  td.colwhite { background: #FFFFFF; color: white; }
+.gradient-button {
+text-decoration: none;
+display: inline-block;
+color: white;
+padding: 20px 30px;
+margin: 10px 20px;
+border-radius: 10px;
+font-family: 'Montserrat', sans-serif;
+letter-spacing: 2px;
+background-image: linear-gradient(to right, #9EEFE1 0%, #4830F0 51%, #9EEFE1 100%);
+background-size: 200% auto;
+box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+transition: .5s;
+}
+.gradient-button:hover {
+background-position: right center;
+}
+
+.transparent {     
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    width: 50%;
+    height: 50%;
+  }
+  .box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    padding: 40px;
+    background: rgba(0, 0, 0, 0.6);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+  }
+  .box h2{
+    margin: 0 0 30px;
+    padding: 0px;
+    color: #fff;
+    text-align: center;
+  }
+  .box .input-box{
+    position: relative;
+  }
+  .box .input-box input{
+    width: 100%;
+    padding: 10px 0px;
+    font-size: 16px;
+    color: #fff;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    border: none;
+    outline: none;
+    background: transparent;
+    border-bottom: 1px solid #fff;
+  }
+  .box .input-box label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    letter-spacing: 1px;
+    padding: 10px 0px;
+    font-size: 16px;
+    color: #fff;
+    transition: .5s;
+  }
+  .box .input-box input:focus ~ label,
+  .box .input-box input:valid ~ label{
+    top: -18px;
+    left: 0px;
+    color: #03a9f4;
+    font-size: 12px;
+  }
+  .box input[type="submit"]{
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #227be3;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor:pointer;
+  }
+  .box input[type="submit"]:hover{
+    background-color: #3067b9;
+  }
+  .center { 
+    text-align: center; 
+  }
+  button.new {
+   background: -moz-linear-gradient(#D0ECF4, #5BC9E1, #D0ECF4);
+   background: -webkit-gradient(linear, 0 0, 0  100%, from(#D0ECF4), to(#D0ECF4), color-stop(0.5, #5BC9E1));
+   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00BBD6', endColorstr='#EBFFFF');
+   padding: 3px 7px;
+   color: #333;
+   -moz-border-radius: 5px;
+   -webkit-border-radius: 5px;
+   border-radius: 5px;
+   border: 1px solid #666;
+  }
+  a{ color: white}
+
+
+
+  
